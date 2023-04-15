@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body, figure, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+/* Header styles */
+header {
+  background-color: #831515;
+  color: #f8f9fa;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+  .container .profile-picture-container {
+    width: 100px; /* Set the width of the container */
+    height: 100px; /* Set the height of the container */
+    border-radius: 50%; /* Make the container a circle */
+    overflow: hidden; /* Hide overflow */
+    float: right; /* Float the container to the right */
+    margin-left: 10px; /* Add some margin to the left for spacing */
+  }
+  .profile-picture-container img {
+    width: 100%; /* Make the image fill the container */
+    height: 100%; /* Make the image fill the container */
+    object-fit: cover; /* Ensure the image covers the container */
+    object-position: center; /* Center the image within the container */
+  }
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav a {
+  color: #f8f9fa;
+  text-decoration: none;
+}
+nav li a:hover {
+	background-color: #303131;
+}
+
+/* Home section styles */
+#home {
+  padding: 40px;
+}
+
+/* About section styles */
+#about {
+  padding: 40px;
+  background-color: #f8f9fa;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Portfolio section styles */
+#portfolio {
+  padding: 40px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+li {
+  flex-basis: 23%;
+  margin-bottom: 20px;
+}
+
+ #protfolio .profile-picture-container {
+  width: 100px; /* Set the width of the container */
+  height: 100px; /* Set the height of the container */
+  border-radius: 50%; /* Make the container a circle */
+  overflow: hidden; /* Hide overflow */
+  float: right; /* Float the container to the right */
+  margin-left: 10px; /* Add some margin to the left for spacing */
+}
+
+
+.profile-picture-container img {
+  width: 100%; /* Make the image fill the container */
+  height: 100%; /* Make the image fill the container */
+  object-fit: cover; /* Ensure the image covers the container */
+  object-position: center; /* Center the image within the container */
+}
+
+#portfolio .video-container{
+  clear: both; /* Clear the float from the previous container */
+  margin-top: 20px; /* Add margin to the top for spacing */
+}
+.video-container video {
+  width: 100%; /* Make the video fill the container */
+  height: auto; /* Automatically adjust the height based on the aspect ratio */
+}
+
+h3 {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 14px;
+  color: #777;
+}
+
+/* Contact section styles */
+#contact {
+  padding: 40px;
+  background-color: #f8f9fa;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+label, input, textarea {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+input[type="submit"] {
+  background-color: #831515;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #303131;
+}
+
+/* Footer styles */
+footer {
+  background-color: #303131;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Example CSS styles for social media icons */
+.fa-facebook,
+.fa-twitter,
+.fa-whatsapp,
+.fa-linkedin {
+  font-size: 24px; /* Change the size of the icons */
+  color: #ffffff; /* Change the color of the icons */
+  margin-right: 5px; /* Add spacing between the icons */
+}
+
+
+ 
+  footer p {
+    margin: 0;
+    font-size: 16px;
+  }
+
+  
+  /* Media queries for mobile devices */
+@media (max-width: 767px) {
+  h1 {
+      font-size: 28px;
+  }
+
+  h2 {
+      font-size: 20px;
+  }
+
+  p {
+      font-size: 16px;
+  }
+
+  ul {
+      justify-content: center;
+  }
+
+  li {
+      flex-basis: 45%;
+  }
+
+  input[type="submit"] {
+      padding: 8px 16px;
+  }
+}
